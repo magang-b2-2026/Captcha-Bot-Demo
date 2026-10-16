@@ -1,0 +1,111 @@
+# ==========================================
+# Python
+# ==========================================
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# API keys / tokens
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ==========================================
+# Project Outputs
+# ==========================================
+
+# Generated CAPTCHA images
+outputs/captcha_images/
+
+# Generated logs
+outputs/logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# ==========================================
+# OCR / ML Temporary Files
+# ==========================================
+
+# OCR temporary output
+ocr_temp/
+debug/
+
+# Model/cache directories
+.cache/
+.cache/
+
+# ==========================================
+# OS Files
+# ==========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ==========================================
+# Playwright
+# ==========================================
+
+# Playwright test artifacts
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
